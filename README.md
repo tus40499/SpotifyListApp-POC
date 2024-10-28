@@ -11,6 +11,12 @@ npm install
 npm run dev
 ```
 
+You'll also need a .env file in the parent directory with your Spotify Client Key and Secret, like so:
+```bash
+VITE_SPOTIFY_CLIENT_ID=client_id_here
+VITE_SPOTIFY_CLIENT_SECRET=client_secret
+```
+
 ## After Effects
 Once you have the generated script, run the script by going to File > Script > Run Script.
 
