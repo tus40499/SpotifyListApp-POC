@@ -1,8 +1,18 @@
-# React + Vite
+# Spotify Video App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application fetches songs from a Spotify playlist and generates an After Effects script that adds text layers for each song at specified intervals.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine. You can start the site using these commands:
+
+```bash
+npm install
+npm run dev
+```
+
+## After Effects
+Once you have the generated script, run the script by going to File > Script > Run Script.
+
+## Versions
+Tested on Node.JS version v11.15.0 and After Effects Version 25.0
